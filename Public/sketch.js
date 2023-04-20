@@ -1,4 +1,4 @@
-let current = new Date()
+// let current = new Date()
 const audio = new Audio("Azaan.mp3")
 let playAudio=true;
 
@@ -59,7 +59,7 @@ function setCurrentTime() {
     let currentM = $(".Minute")[0];
     let currentS = $(".Second")[0];
     setInterval(function () {
-        // let current = new Date()
+        let current = new Date()
         currentH.innerHTML = current.getHours()
         currentM.innerHTML = current.getMinutes()
         currentS.innerHTML = current.getSeconds()
@@ -114,5 +114,5 @@ function testAzaan(setHour, setMinute, setSeconds) {
 
 getPrayerTimesAPI()
 setCurrentTime()
-testAzaan(16, 52, 58);
+// testAzaan(16, 52, 58);
 eventListener()

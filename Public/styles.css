@@ -54,8 +54,30 @@ h3{
   opacity: 0.8;
   margin-bottom: 200px;
 }
-.card:hover{
-  opacity: 1;
+@media only screen and (max-width: 600px) {
+  .prayerTimes{
+  }
+  .Top-Container{
+    position: relative;
+  }
+  .card{
+    position: fixed;
+    top:70px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    border: none;
+  }
+  
+  .Middle-Container{
+
+  }
+  .time{
+    border: none;
+    width: 50px;
+    margin-right: 50px;
+
+  }
 }
 .card-container{
   margin-top: 100px;;
@@ -81,18 +103,18 @@ h3{
 }
 
 .prayerTimes{
+  
   text-align: center;
   display: flex;
   background-color:#2d9471;
-  width: 60%;
-  border-radius: 10px;
+
   width: 100%;
 
 }
 
 .carousel-inner img{
 
-  border-radius: 10px;
+
 }
 .time{
   z-index: 1;
