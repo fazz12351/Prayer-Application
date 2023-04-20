@@ -1,0 +1,124 @@
+
+body {
+  color: black;
+  position: relative;
+  width: 100%;
+
+}
+
+h3{
+  display: block;
+}
+.navigationBr {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color:black;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+.navbar{
+  color: black;
+  border-radius: 30px;
+  background-color: rgb(248, 246, 246);
+  
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+.navbar a{
+  color:black;
+  background-color: rgb(248, 246, 246);
+}
+
+.Top-Container{
+ 
+  position: relative;
+  text-align: center;
+
+
+}
+.Top-Content{
+  display: flex;
+  justify-content: center;
+}
+.Top-Container img{
+  position: relative;
+  width: 100%;
+}
+.card{
+  display: block;
+  width: 50rem;
+  background-color: grey;
+  opacity: 0.8;
+  margin-bottom: 200px;
+}
+.card:hover{
+  opacity: 1;
+}
+.card-container{
+  margin-top: 100px;;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Middle-Container{
+  display: block;
+  margin-top: 120px;;
+  margin-bottom: 50px;
+  text-align: center;
+  height:600px;
+}
+.Middle-Content{
+  padding-bottom: 100px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.prayerTimes{
+  text-align: center;
+  display: flex;
+  background-color:#2d9471;
+  width: 60%;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.carousel-inner img{
+
+  border-radius: 10px;
+}
+.time{
+  z-index: 1;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left:10px;
+  text-align: center;
+  width: 10%;
+  border:1px solid black;
+  border-radius: 10px;
+  position: fixed;
+  top:0px;
+  right: 0px;
+}
+.soundBar{
+  margin-top: 4px;
+}
+
+.hide {
+  display: none;
+
+}
+.show{
+  display:inline-block  
+
+}
+
+
+

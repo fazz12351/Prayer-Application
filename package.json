@@ -1,0 +1,26 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Prayer Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faeem Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/fazz12351/Prayer-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazz12351/Prayer-Application/issues"
+  },
+  "homepage": "https://github.com/fazz12351/Prayer-Application#readme"
+}
