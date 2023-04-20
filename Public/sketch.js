@@ -1,5 +1,7 @@
-// let current = new Date()
+let current = new Date()
 const audio = new Audio("Azaan.mp3")
+let playAudio=true;
+
 
 
 
@@ -10,12 +12,23 @@ function eventListener() {
 
     //we pause the audio and catch the 
     sound.addEventListener("click", function () {
-        audio.pause()
-        this.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"
+        playAudio=playAudio? false:true;
+
+        if(playAudio==true){
+            audio.play()
+            this.innerHTML = "<i class='fa-solid fa-play'></i>"
+        }
+        else{
+            audio.pause()
+            this.innerHTML = "<i class='fa-solid fa-volume-xmark'></i>"
+        }
+    
+       
     })
     card.addEventListener("click", function () {
         this.classList.toggle("hide")
     })
+   
 }
 
 function getPrayerTimesAPI() {
@@ -46,7 +59,7 @@ function setCurrentTime() {
     let currentM = $(".Minute")[0];
     let currentS = $(".Second")[0];
     setInterval(function () {
-        let current = new Date()
+        // let current = new Date()
         currentH.innerHTML = current.getHours()
         currentM.innerHTML = current.getMinutes()
         currentS.innerHTML = current.getSeconds()
@@ -61,7 +74,6 @@ function setCurrentTime() {
 
 function checkPrayerTime(Prayer, currentTime) {
     
-
     const sound = $(".soundBar")[0]
     const card = $(".card")[0]
     let Prayerhour = parseInt(Prayer.innerHTML.split("")[0] += Prayer.innerHTML.split("")[1])
@@ -102,5 +114,5 @@ function testAzaan(setHour, setMinute, setSeconds) {
 
 getPrayerTimesAPI()
 setCurrentTime()
-// testAzaan(04, 28, 58);
+testAzaan(16, 52, 58);
 eventListener()
