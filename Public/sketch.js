@@ -5,6 +5,7 @@ let playAudio=true;
 
 
 
+
 function eventListener() {
     const card = $(".card")[0]
     const cardButton = $(".closingButton")[0];
