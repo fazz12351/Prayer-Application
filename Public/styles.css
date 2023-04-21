@@ -77,13 +77,25 @@ h3 {
     border: none;
   }
 
-  .Middle-Container {}
+  .Middle-Container {
+    border:10px solid red;
+  }
 
   .time {
     border: none;
     width: 50px;
     margin-right: 50px;
 
+  }
+  .carousel-inner img {
+    object-fit: cover;
+    border-radius: 10px;
+  
+  }
+  .carousel-inner video {
+
+    border-radius: 10px;
+  
   }
 }
 
@@ -124,7 +136,8 @@ h3 {
 }
 
 .carousel-inner img {
-  height: 310px;
+  /* height: 310px; */
+  object-fit: cover;
   border-radius: 10px;
 
 }
