@@ -29,7 +29,7 @@ function eventListener() {
 
     })
     card.addEventListener("click", function () {
-        this.classList.toggle("hide")
+        this.classList.add("hide")
     })
 
 
