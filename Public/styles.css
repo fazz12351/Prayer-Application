@@ -108,6 +108,7 @@ h3 {
 }
 
 .hide {
+  display: none;
   opacity: 0;
 
 }
