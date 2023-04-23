@@ -2,6 +2,7 @@ body {
   color: black;
   position: relative;
   width: 100%;
+ 
 
 }
 
@@ -62,7 +63,12 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-  .prayerTimes {}
+  .Middle-Content{
+  
+    width:100%;
+    position: absolute;
+    bottom: 0px;;
+  }
 
   .Top-Container {
     position: relative;
@@ -78,7 +84,11 @@ h3 {
   }
 
   .Middle-Container {
-    border:10px solid red;
+   
+   
+    position: relative;
+    min-height: 100px;
+
   }
 
   .time {
@@ -87,7 +97,10 @@ h3 {
     margin-right: 50px;
 
   }
+ 
   .carousel-inner img {
+    height:200px;
+
     object-fit: cover;
     border-radius: 10px;
   
@@ -101,7 +114,6 @@ h3 {
 
 .card-container {
   margin-top: 100px;
-  ;
   position: absolute;
   align-items: center;
   justify-content: center;
@@ -136,15 +148,15 @@ h3 {
 }
 
 .carousel-inner img {
-  /* height: 310px; */
-  object-fit: cover;
-  border-radius: 10px;
+  height: 200px;
+ 
+  /* border-radius: 10px; */
 
 }
 
 .carousel-inner video {
   border-radius: 10px;
-  height: 310px;
+  height: 200px;
 
 
 }
