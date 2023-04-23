@@ -1,100 +1,135 @@
-
 body {
   color: black;
   position: relative;
   width: 100%;
+ 
 
 }
 
-h3{
+h3 {
   display: block;
 }
+
 .navigationBr {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  color:black;
+  color: black;
   background-color: white;
   padding: 10px;
   width: 100%;
 }
-.navbar{
+
+.navbar {
   color: black;
   border-radius: 30px;
   background-color: rgb(248, 246, 246);
-  
+
 }
+
 .navbar-brand:hover {
   text-decoration: underline;
 }
-.navbar a{
-  color:black;
+
+.navbar a {
+  color: black;
   background-color: rgb(248, 246, 246);
 }
 
-.Top-Container{
- 
+.Top-Container {
+
   position: relative;
   text-align: center;
 
 
 }
-.Top-Content{
+
+.Top-Content {
   display: flex;
   justify-content: center;
 }
-.Top-Container img{
+
+.Top-Container img {
   position: relative;
   width: 100%;
 }
-.card{
+
+.card {
   display: block;
   width: 50rem;
   background-color: grey;
   opacity: 0.8;
   margin-bottom: 200px;
 }
+
 @media only screen and (max-width: 600px) {
-  .prayerTimes{
+  .Middle-Content{
+  
+    width:100%;
+    position: absolute;
+    bottom: 0px;;
   }
-  .Top-Container{
+
+  .Top-Container {
     position: relative;
   }
-  .card{
+
+  .card {
     position: fixed;
-    top:70px;
+    top: 70px;
     left: 0px;
     width: 100%;
     z-index: 1;
     border: none;
   }
-  
-  .Middle-Container{
+
+  .Middle-Container {
+   
+   
+    position: relative;
+    min-height: 100px;
 
   }
-  .time{
+
+  .time {
     border: none;
     width: 50px;
     margin-right: 50px;
 
   }
+ 
+  .carousel-inner img {
+    height:200px;
+
+    object-fit: cover;
+    border-radius: 10px;
+  
+  }
+  .carousel-inner video {
+
+    border-radius: 10px;
+  
+  }
 }
-.card-container{
-  margin-top: 100px;;
+
+.card-container {
+  margin-top: 100px;
   position: absolute;
   align-items: center;
   justify-content: center;
 
 }
 
-.Middle-Container{
+.Middle-Container {
   display: block;
-  margin-top: 120px;;
+  margin-top: 120px;
+  ;
   margin-bottom: 50px;
   text-align: center;
-  height:600px;
+  height: 600px;
 }
-.Middle-Content{
+
+.Middle-Content {
   padding-bottom: 100px;
   position: relative;
   display: flex;
@@ -102,34 +137,45 @@ h3{
   justify-content: center;
 }
 
-.prayerTimes{
-  
+.prayerTimes {
+  border-radius: 10px;
   text-align: center;
   display: flex;
-  background-color:#2d9471;
+  background-color: #2d9471;
 
   width: 100%;
 
 }
 
-.carousel-inner img{
+.carousel-inner img {
+  height: 200px;
+ 
+  /* border-radius: 10px; */
+
+}
+
+.carousel-inner video {
+  border-radius: 10px;
+  height: 200px;
 
 
 }
-.time{
+
+.time {
   z-index: 1;
   padding: 5px;
   margin-top: 20px;
-  margin-left:10px;
+  margin-left: 10px;
   text-align: center;
   width: 10%;
-  border:1px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   position: fixed;
-  top:0px;
+  top: 0px;
   right: 0px;
 }
-.soundBar{
+
+.soundBar {
   margin-top: 4px;
 }
 
@@ -137,10 +183,7 @@ h3{
   display: none;
 
 }
-.show{
-  display:inline-block  
 
+.show {
+  display: inline-block
 }
-
-
-
