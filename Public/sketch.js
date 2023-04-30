@@ -54,6 +54,7 @@ function getPrayerTimesAPI() {
                 // $('#magrib-jamat').html(data.magrib_jamat);
                 $('.Isha').html(data.isha);
                 // $('#isha-jamat').html(data.isha_jamat);
+                // console.log(data)
             })
     })
 

@@ -1,6 +1,9 @@
+const header=document.querySelector(".CityName").innerHTML
+const hamburger=document.querySelector(".navbar-toggler")
 
 
-let header=document.querySelector(".CityName").innerHTML
+
+
 
 
 
@@ -15,6 +18,7 @@ jQuery(function($) {
         $(".Magrib").html(times.items[0].maghrib)
         $(".Isha").html(times.items[0].isha)
         console.log(times)
+       
 
         
     });
